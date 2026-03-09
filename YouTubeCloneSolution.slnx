@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="YouTubeClone.Domain/YouTubeClone.Domain.csproj" />
+  <Project Path="YouTubeClone.Shared/YouTubeClone.Shared.csproj" />
+  <Project Path="YouTubeClone.Standalone/YouTubeClone.Standalone.csproj" />
+  <Project Path="YouTubeCloneAPI/YouTubeCloneAPI.csproj" />
+</Solution>
