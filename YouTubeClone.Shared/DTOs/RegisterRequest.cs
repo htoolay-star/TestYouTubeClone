@@ -8,8 +8,8 @@ namespace YouTubeClone.Shared.DTOs
         string Username,
         string Email,
         string Password,
+        string ConfirmPassword,
         string? Bio = null,
-        string? ProfilePictureUrl = null,
         DateOnly? DateOfBirth = null,
         byte Gender = 0
     );

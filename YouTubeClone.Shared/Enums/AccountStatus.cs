@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace YouTubeClone.Domain.Enums
+namespace YouTubeClone.Shared.Enums
 {
     public enum AccountStatus : byte
     {

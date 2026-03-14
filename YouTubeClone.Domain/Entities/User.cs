@@ -35,11 +35,21 @@ public partial class User
 
     public DateTime UpdatedAt { get; set; }
 
+    public DateTime? DeletedAt { get; set; }
+
     public byte[] RowVersion { get; set; } = null!;
 
     public bool IsSubscriptionPublic { get; set; }
 
     public bool IsWatchHistoryPaused { get; set; }
+
+    public bool IsEmailVerified { get; set; }
+    public string? RefreshToken { get; set; }
+    public DateTime? RefreshTokenExpiryTime { get; set; }
+    public bool IsOnline { get; set; }
+    public DateTime? LastLoginAt { get; set; }
+    public int AccessFailedCount { get; set; }
+    public DateTime? LockoutEnd { get; set; }
 
     public virtual Channel? Channel { get; set; }
 
